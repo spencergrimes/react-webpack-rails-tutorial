@@ -6,16 +6,10 @@ export default class Footer extends BaseComponent {
     return (
       <footer className=" text-neutral-200 bg-[#222] py-8 mt-16">
         <div className="container mx-auto px-4">
-          <a href="http://www.shakacode.com">
             <h3 className="flex gap-4 items-center">
-              <div className="w-[146px] h-[40px] bg-[url('../images/railsonmaui.png')]" />
-              Example of styling using image-url and Open Sans Light custom font
+              <div className="w-[146px] h-[40px] bg-[url('../images/makeadifference-icon.png')] bg-contain bg-no-repeat bg-center" />
+              Make a Difference
             </h3>
-          </a>
-          <a href="https://twitter.com/railsonmaui" className="flex gap-4 items-center">
-            <div className="w-16 h-16 bg-[url('../images/twitter_64.png')]" />
-            Rails On Maui on Twitter
-          </a>
         </div>
       </footer>
     );

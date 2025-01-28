@@ -24,7 +24,7 @@ function RouterCommentsContainer(props) {
   const location = useLocation();
   const locationState = location.state;
   const locale = data.get('locale') || defaultLocale;
-  const messages = translations[locale];
+  const messages = translations[locale].messages;
 
   return (
     <IntlProvider locale={locale} key={locale} messages={messages}>

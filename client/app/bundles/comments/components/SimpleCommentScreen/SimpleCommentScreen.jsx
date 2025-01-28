@@ -123,7 +123,7 @@ export default class I18nWrapper extends BaseComponent {
 
   render() {
     const { locale } = this.state;
-    const messages = translations[locale];
+    const messages = translations[locale].messages;
     const InjectedSimpleCommentScreen = injectIntl(SimpleCommentScreen);
 
     return (
